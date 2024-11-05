@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Wheel Spinner</title>
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <canvas class="wheel"></canvas>
+        <button class="btn">Spin</button>
+        <img src="arrow.png" alt="" class="img" />
+      </div>
+      <div class="value">
+        <p>Click the spin button to start</p>
+      </div>
+    </div>
+
+    <!--chart.js-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!--chart js plugin to display text over chart-->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
